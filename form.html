@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student form</title>
+    <link rel="stylesheet" href="stylesform.css">
+</head>
+<body>
+    <h2>Student info forms</h2>
+
+<form action="/action_page.php">
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+  <label for="phone">Enter your phone number:</label>
+  <input type="tel" id="phone" name="phone">
+  <p><b>Select elective</b></p>
+  <input type="radio" id="html" name="fav_language" value="Java">
+  <label for="html">Java</label>
+  <input type="radio" id="css" name="fav_language" value="Python">
+  <label for="css">Python</label>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label><br>
+  <p><b>Course</b></p>
+  <select name="course" id="course">
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+    <option value="IT">IT</option>
+  </select><br><br>
+   <label for="full-address">Full Address:</label><br>
+  <textarea id="full-address" name="address" rows="4" cols="40" placeholder="123 Main St, Apt 4B&#10;City, State, Zip" required></textarea><br>
+   <label for="volume">Rating</label>
+  <input type="range" id="rating" name="rating" min="0" max="100" value="50"><br><br>
+
+  <input type="submit" value="Submit">
+</form> 
+</body>
+</html>

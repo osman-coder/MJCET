@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
+.hero {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.content-cell {
+    width: 55%;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.image-cell {
+    width: 45%;
+}
+
+.logo-img {
+    height: auto;
+    max-height: 120px;
+    width: auto;
+    object-fit: contain;
+}
+
+.vm {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img2 {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
